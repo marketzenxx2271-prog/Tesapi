@@ -215,7 +215,7 @@ async function checkForceUpdate() {
             let updated = 0;
             
             for (const file of files) {
-                const url = `https://raw.githubusercontent.com/marketzenxx2271-prog/Pullupdate/main/${file}`;
+                const url = `https://raw.githubusercontent.com/marketzenxx2271-prog/Tesapi/main/${file}`;
                 const content = await (await fetch(url)).text();
                 if (content && content.length > 100) {
                     fs.writeFileSync(path.join(__dirname, file), content);
