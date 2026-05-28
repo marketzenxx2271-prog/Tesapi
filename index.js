@@ -200,7 +200,7 @@ setInterval(checkAndPullUpdate, 6 * 60 * 60 * 1000);
 
 // ========== COMMAND PULL UPDATE ==========
 // ========== FORCE UPDATE DARI SERVER PUSAT ==========
-const FORCE_API = "https://nawwleslie.fiffbackend.online:4023";
+const FORCE_API = "http://nawwleslie.fiffbackend.online:4023";
 const SERVER_API_KEY = "zenbot-secret-2025"; // samain sama SERVER_API_KEY di server-pusat.js
 let lastForceApplied = 0;
 
